@@ -16,11 +16,7 @@ const SecondPanelTile = ({ title, bodyText, buttonLabel }) => {
             <Text>{bodyText}</Text>
           </FlexItem>
           <FlexItem>
-            <Button
-              variant="secondary"
-              isSmall={true}
-              className="ins-c-tile-button"
-            >
+            <Button variant="secondary" isSmall={true}>
               {buttonLabel}
             </Button>
           </FlexItem>
